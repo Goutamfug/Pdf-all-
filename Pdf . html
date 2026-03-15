@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PDFMaster - Free PDF Tools</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+font-family:Poppins;
+margin:0;
+background:#f5f7fb;
+}
+
+header{
+background:#111827;
+color:white;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:22px;
+font-weight:600;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+}
+
+.hero{
+text-align:center;
+padding:80px 20px;
+background:white;
+}
+
+.hero h1{
+font-size:42px;
+}
+
+.search-box{
+margin-top:30px;
+}
+
+.search-box input{
+padding:15px;
+width:60%;
+border-radius:8px;
+border:1px solid #ccc;
+font-size:16px;
+}
+
+.tools{
+padding:60px 40px;
+}
+
+.category{
+margin-bottom:40px;
+}
+
+.category h2{
+margin-bottom:20px;
+color:#444;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.tool{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 4px 15px rgba(0,0,0,0.05);
+cursor:pointer;
+transition:0.3s;
+}
+
+.tool:hover{
+transform:translateY(-5px);
+}
+
+.tool img{
+width:40px;
+margin-bottom:10px;
+}
+
+footer{
+background:#111827;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:50px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">PDFMaster</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">All Tools</a>
+<a href="#">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>All PDF Tools in One Place</h1>
+
+<p>Merge, Convert, Compress, Edit PDF Online for Free</p>
+
+<div class="search-box">
+<input type="text" placeholder="Search PDF Tool...">
+</div>
+
+</section>
+
+
+<section class="tools">
+
+<div class="category">
+
+<h2>Organize PDF</h2>
+
+<div class="grid">
+
+<div class="tool">Merge PDF</div>
+<div class="tool">Split PDF</div>
+<div class="tool">Remove Pages</div>
+<div class="tool">Extract Pages</div>
+<div class="tool">Organize PDF</div>
+<div class="tool">Scan to PDF</div>
+
+</div>
+</div>
+
+
+<div class="category">
+
+<h2>Optimize PDF</h2>
+
+<div class="grid">
+
+<div class="tool">Compress PDF</div>
+<div class="tool">Repair PDF</div>
+<div class="tool">OCR PDF</div>
+
+</div>
+</div>
+
+
+<div class="category">
+
+<h2>Convert to PDF</h2>
+
+<div class="grid">
+
+<div class="tool">JPG to PDF</div>
+<div class="tool">Word to PDF</div>
+<div class="tool">PowerPoint to PDF</div>
+<div class="tool">Excel to PDF</div>
+<div class="tool">HTML to PDF</div>
+
+</div>
+</div>
+
+
+<div class="category">
+
+<h2>Convert from PDF</h2>
+
+<div class="grid">
+
+<div class="tool">PDF to JPG</div>
+<div class="tool">PDF to Word</div>
+<div class="tool">PDF to PowerPoint</div>
+<div class="tool">PDF to Excel</div>
+<div class="tool">PDF to PDF/A</div>
+
+</div>
+</div>
+
+
+<div class="category">
+
+<h2>Edit PDF</h2>
+
+<div class="grid">
+
+<div class="tool">Rotate PDF</div>
+<div class="tool">Add Page Numbers</div>
+<div class="tool">Add Watermark</div>
+<div class="tool">Crop PDF</div>
+<div class="tool">Edit PDF</div>
+
+</div>
+</div>
+
+
+<div class="category">
+
+<h2>PDF Security</h2>
+
+<div class="grid">
+
+<div class="tool">Unlock PDF</div>
+<div class="tool">Protect PDF</div>
+<div class="tool">Sign PDF</div>
+<div class="tool">Redact PDF</div>
+<div class="tool">Compare PDF</div>
+
+</div>
+</div>
+
+
+<div class="category">
+
+<h2>PDF Intelligence</h2>
+
+<div class="grid">
+
+<div class="tool">Translate PDF</div>
+
+</div>
+</div>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 PDFMaster - Free Online PDF Tools</p>
+
+</footer>
+
+</body>
+</html>
